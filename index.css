@@ -1,0 +1,15 @@
+/* fonts */
+/* google fonts - Libre Baskerville*/
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Libre+Baskerville:wght@400;700&display=swap');
+
+
+/* default general */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Farsan', cursive;
+    font-family: 'Libre Baskerville', serif;
+}
