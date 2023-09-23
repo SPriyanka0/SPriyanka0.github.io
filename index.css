@@ -7,9 +7,14 @@
 * {
     margin: 0;
     padding: 0;
+    color:  #101820;
+    background-color: #FEE715;
+    
 }
 
 body {
     font-family: 'Farsan', cursive;
     font-family: 'Libre Baskerville', serif;
+   
 }
+
