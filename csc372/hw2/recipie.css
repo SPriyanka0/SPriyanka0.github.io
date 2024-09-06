@@ -2,3 +2,28 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url("photos/silverware.jpg");
+    color: #404040;
+    font-size: 11pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-image: url("photos/pie_icon.gif");
+    padding-left: 20px;
+}
+
+h3{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    text-align: left;
+}
+
+#title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+}
