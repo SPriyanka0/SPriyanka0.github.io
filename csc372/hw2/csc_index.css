@@ -1,0 +1,13 @@
+.container{
+    padding: 40px;
+    margin: 40px;
+    border: 2px solid black;
+    height: 800px;
+    width: 600px;
+    justify-content: center;
+    background-color: #F8F0E3;
+}
+
+#section1, #section2, #section3{
+    justify-content: space-around;
+}
