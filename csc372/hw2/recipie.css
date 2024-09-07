@@ -27,3 +27,18 @@ h3{
     font-weight: bold;
     font-size: 22pt;
 }
+
+a{
+    color: #A4A400;
+}
+
+#copyright{
+    text-align: left;
+}
+
+div .comment{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFA8 ;
+    font-style: italic;
+}
