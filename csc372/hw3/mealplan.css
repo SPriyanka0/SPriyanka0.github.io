@@ -1,0 +1,10 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    padding: 50px;
+    font-weight: bold;
+ }
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px auto;
+}
