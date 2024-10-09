@@ -66,14 +66,15 @@ function randomComp(){
 
 //resetScore() - resets gameplay
 function resetScore(){
-    const comp = document.querySelector('.question');
+    // const comp = document.querySelector('.question');
     console.log('Reset Score');
     //reset variable
     playerScore = 0;
     computerScore = 0;
     tieScore = 0;
     //reset image
-    comp.src = '/csc372/hw4/photos/question-mark.png';
+    // comp.src = '/csc372/hw4/photos/question-mark.png';
+    
     //reset score on display
     const pScore = document.querySelector('.playerScore');
     pScore.textContent = playerScore;
