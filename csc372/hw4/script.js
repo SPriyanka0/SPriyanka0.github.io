@@ -66,7 +66,6 @@ function randomComp(){
 
 //resetScore() - resets gameplay
 function resetScore(){
-    const comp = document.querySelector('.question');
     console.log('Reset Score');
     //reset variable
     playerScore = 0;
