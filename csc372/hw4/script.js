@@ -1,4 +1,4 @@
-
+const comp = document.querySelector('.question');
 const rock = document.querySelector('.rock');
 const paper = document.querySelector('.paper');
 const scissors = document.querySelector('.scissors');
@@ -58,7 +58,6 @@ function randomComp(){
     //randomize 
     const options = ['rock', 'paper', 'scissors'];
     const compPlay = options[Math.floor(Math.random()*3)];
-    const comp = document.querySelector('.question');
     setTimeout(() =>{
         comp.src = `/csc372/hw4/photos/${compPlay}.PNG`;
     },3000); 
