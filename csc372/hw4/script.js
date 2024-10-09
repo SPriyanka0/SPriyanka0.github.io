@@ -60,7 +60,7 @@ function randomComp(){
     const compPlay = options[Math.floor(Math.random()*3)];
     const comp = document.querySelector('.question');
     setTimeout(() =>{
-        comp.src = `/csc372/hw4/photos/${compPlay}.png`;
+        comp.src = `/csc372/hw4/photos/${compPlay}.PNG`;
     },3000); 
     return compPlay;
 }
